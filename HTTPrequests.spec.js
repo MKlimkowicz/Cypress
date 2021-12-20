@@ -6,7 +6,7 @@ context('HTTP requests', () => {
     window.localStorage.setItem('termsAccepted', 'true');
   });
 
-  const HOST_URL = 'https://howdy-server.herokuapp.com';
+  const HOST_URL = 'x'; 
 
   describe('Testimonials', () => {
     it('Fetch testimonials programmatically', () => {
